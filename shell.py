@@ -46,12 +46,12 @@ def ana():
         else:
             os.system("clear")
             os.system("cls")
-            print(Fore.CYAN + "[#] " + Fore.BLUE + " Tarama Başlatılıyor {}".format(zaman()))
+            print(Fore.CYAN + "[+] " + Fore.YELLOW + " Tarama Başlatılıyor {}".format(zaman()))
             time.sleep(1)
-            print(Fore.CYAN + "[#] " + Fore.BLUE + " Lütfen birkaç dakika bekleyin...\n")
+            print(Fore.CYAN + "[+] " + Fore.YELLOW + " Lütfen biraz bekleyin...\n")
             u = args["url"]
             bf(u)
-            print("\n" + Fore.CYAN + "[#] " + Fore.BLUE + " Tarama Tamamlandı. {}".format(zaman()))
+            print("\n" + Fore.CYAN + "[+] " + Fore.GREEN + " Tarama Tamamlandı. {}".format(zaman()))
             time.sleep(5)
             os.system("clear")
             os.system("cls")
